@@ -1,0 +1,6 @@
+{
+  "name": "Vibba",
+  "description": "Vibba — Rede social completa com Feed, Amigos, Messenger em tempo real, Grupos, Marketplace, Eventos, Páginas e Publicações em Áudio.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

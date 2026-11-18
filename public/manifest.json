@@ -1,0 +1,40 @@
+{
+  "id": "/",
+  "name": "Vibba",
+  "short_name": "Vibba",
+  "version": "8.0.0",
+  "description": "Vibba — Rede social ao estilo Facebook com publicações de vídeos, fotos, áudio, comentários por voz, Messenger ao vivo, Grupos e Marketplace.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "prefer_related_applications": false,
+  "orientation": "portrait-primary",
+  "theme_color": "#18191A",
+  "background_color": "#18191A",
+  "lang": "pt",
+  "categories": ["social", "communication"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
